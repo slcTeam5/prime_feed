@@ -10,5 +10,5 @@ def post_feed(title, body, user_id, id):
             'body': body}
     return data
 
-
+data = post_feed('Three People win awrds', 'hsdkfshkdfhasdf', 1, 1)
 r = requests.post(url = API_ENDPOINT, data = data)
